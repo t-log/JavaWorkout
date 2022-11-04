@@ -13,7 +13,7 @@ class Faculty{
 }
 class FullTimeFaculty extends Faculty{
     private float basic,allowance;
-    FullTimeFaculty(){
+    public void getData(){
         System.out.println("Enter basic and allowance:");
         basic = sc.nextFloat();
         allowance = sc.nextFloat();
@@ -26,7 +26,7 @@ class FullTimeFaculty extends Faculty{
 }
 class PartTimeFaculty extends Faculty{
     private float hour,rate;
-    PartTimeFaculty(){
+    public void getData(){
         System.out.println("Enter hour and rate:");
         hour = sc.nextFloat();
         rate = sc.nextFloat();
@@ -40,13 +40,17 @@ class PartTimeFaculty extends Faculty{
 public class DriverClassOne {
     public static void main(String[] args) {
         FullTimeFaculty f1 = new FullTimeFaculty();
+        f1.getData();
         f1.displayData();
         FullTimeFaculty f2 = new FullTimeFaculty();
+        f2.getData();
         f2.displayData();
 
         PartTimeFaculty p1 = new PartTimeFaculty();
+        p1.getData();
         p1.displayData();
         PartTimeFaculty p2 = new PartTimeFaculty();
+        p2.getData();
         p2.displayData();
     }
 }
