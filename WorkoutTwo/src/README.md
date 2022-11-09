@@ -1,2 +1,0 @@
-#Java Workout Two solution
-#Akhil Paul
