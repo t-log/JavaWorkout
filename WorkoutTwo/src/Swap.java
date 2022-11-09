@@ -10,7 +10,6 @@ public class Swap {
         System.out.println("Call by reference:");
         ObjSwap obj = new ObjSwap();
         swap(obj.num1,obj.num2);
-
     }
     static void swap(int num1,int num2){
         System.out.println("Before swapping: "+"Number1= "+num1+" Number2= "+num2);

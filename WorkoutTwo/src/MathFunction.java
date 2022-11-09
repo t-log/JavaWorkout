@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MathFunction {
     static void multiply(int a,int b){
         System.out.println(a*b);
@@ -12,7 +11,7 @@ public class MathFunction {
     }
     public static void main(String[] args) {
         multiply(5,2);
-        multiply((float)10.5,(float)5.5);
-        multiply((float)5.5,10);
+        multiply(10.5f,5.5f);
+        multiply(5.5f,10);
     }
 }

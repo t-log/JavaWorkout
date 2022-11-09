@@ -32,7 +32,6 @@ class Ointment extends Medicine{
         System.out.println("For External use only");
     }
 }
-
 public class TestMedicine {
     public static void main(String[] args) {
         Random random = new Random();

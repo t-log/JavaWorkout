@@ -21,7 +21,6 @@ class Floor{
         System.out.println("Total no of tiles required:"+((int)(area/t.area)));
     }
 }
-
 public class DriverClassFive {
     public static void main(String[] args) {
         Tile t = new Tile();

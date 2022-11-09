@@ -14,10 +14,12 @@ public class Employee {
         ass2 = sc.nextFloat();
         ass3 = sc.nextFloat();
         if(ass1>75 && ass2>75 && ass3>75){
-            System.out.println("Promoted");
+            result = "Promoted";
+            System.out.println(result);
         }
         else{
-            System.out.println("Demoted");
+            result = "Demoted";
+            System.out.println(result);
         }
     }
     public float total(){
@@ -29,7 +31,7 @@ public class Employee {
     }
     public static void main(String[] args) {
         Employee e = new Employee();
-        System.out.println(e.total());
+        System.out.println("Total is:"+e.total());
         e.percentage();
     }
 }
